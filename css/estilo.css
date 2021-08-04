@@ -3090,7 +3090,7 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  justify-content: flex-end; }
+justify-content: flex-end; }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -3700,8 +3700,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-image: radial-gradient(white 20%, #323033 80%);
-  opacity: 0.95;
+  background-color: #31333583;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
