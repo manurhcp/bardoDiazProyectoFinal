@@ -3055,7 +3055,7 @@ input[type="button"].btn-block {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end; }
+    justify-content: space-between; }
 
 .navbar-brand {
   display: inline-block;
@@ -3089,7 +3089,8 @@ input[type="button"].btn-block {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center; }
+  align-items: center;
+  justify-content: flex-end;}
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
