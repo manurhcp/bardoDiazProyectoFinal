@@ -7198,11 +7198,10 @@ div .navbar-collapse {
   height: 80vh; }
 
 div img {
-  opacity: 0.6;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; }
+  opacity: 0.6; }
 
-@media only screen and (max-width: 600px) {
+/*vista desktop*/
+/*vista desktop*/
+@media only screen and (max-width: 767px) {
   .bgImage {
     background-size: 100%; } }
