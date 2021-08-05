@@ -3089,8 +3089,7 @@ input[type="button"].btn-block {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
-  align-items: center;
-justify-content: flex-end; }
+  align-items: center; }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -3700,7 +3699,7 @@ justify-content: flex-end; }
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #31333583;
+  background-color: #e9ecef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -7186,3 +7185,24 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+div .navbar-collapse {
+  justify-content: center; }
+  div .navbar-collapse a {
+    font-size: 120%; }
+
+.bgImage {
+  background-image: url(../assets/img/harina-4.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 80vh; }
+
+div img {
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+@media only screen and (max-width: 600px) {
+  .bgImage {
+    background-size: 100%; } }

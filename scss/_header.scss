@@ -1,0 +1,38 @@
+div .navbar-collapse{
+
+    justify-content: center;
+
+    a{
+        font-size: 120%;
+    }
+}
+
+.bgImage {
+    background-image: url(../assets/img/harina-4.jpg);
+    background-position: top;
+   
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+div img{
+
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .bgImage{
+
+    
+    background-size: 100%;
+    
+    
+}
+
+}
