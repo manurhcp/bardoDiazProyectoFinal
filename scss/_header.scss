@@ -1,9 +1,21 @@
-div.navbar-collapse{
+
+body{
+
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+
+.nav{
 
     justify-content: center;
+    
 
-    a{
-        font-size: 120%;
+    li a{
+        font-size: 180%;
+        color: rgba(206, 206, 206, 0.788);
+        font-family: 'Cormorant Garamond';
+
+    
     }
 }
 
@@ -12,6 +24,9 @@ div.navbar-collapse{
     background-position: top;
     background-repeat: no-repeat;
     height: 80vh;
+    width: 100%;
+    
+        
 }
 
 div img{
@@ -29,6 +44,10 @@ img.logoChico{
     bottom: 2%;
 
 }
+
+
+
+
 
 
 

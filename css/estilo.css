@@ -5696,7 +5696,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 0rem !important; }
+  margin-bottom: 3rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -7186,16 +7186,22 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-div.navbar-collapse {
+body {
+  background-color: rgba(255, 255, 255, 0.952); }
+
+.nav {
   justify-content: center; }
-  div.navbar-collapse a {
-    font-size: 120%; }
+  .nav li a {
+    font-size: 180%;
+    color: rgba(206, 206, 206, 0.788);
+    font-family: 'Cormorant Garamond'; }
 
 .bgImage {
   background-image: url(../assets/img/harina-4.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  height: 80vh; }
+  height: 80vh;
+  width: 100%; }
 
 div img {
   opacity: 0.6; }
