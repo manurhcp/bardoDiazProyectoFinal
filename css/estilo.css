@@ -5696,7 +5696,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 0rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -7186,9 +7186,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-div .navbar-collapse {
+div.navbar-collapse {
   justify-content: center; }
-  div .navbar-collapse a {
+  div.navbar-collapse a {
     font-size: 120%; }
 
 .bgImage {
@@ -7200,8 +7200,21 @@ div .navbar-collapse {
 div img {
   opacity: 0.6; }
 
+img.logoChico {
+  width: 40%;
+  display: flex;
+  position: relative;
+  left: 2%;
+  bottom: 2%; }
+
 /*vista desktop*/
+@media only screen and (max-width: 767px) and (min-width: 768) {
+  img.logoChico {
+    display: none; } }
+
 /*vista desktop*/
 @media only screen and (max-width: 767px) {
   .bgImage {
-    background-size: 100%; } }
+    background-size: 100%; }
+  img.logoGrande {
+    display: none; } }

@@ -1,4 +1,4 @@
-div .navbar-collapse{
+div.navbar-collapse{
 
     justify-content: center;
 
@@ -10,7 +10,6 @@ div .navbar-collapse{
 .bgImage {
     background-image: url(../assets/img/harina-4.jpg);
     background-position: top;
-   
     background-repeat: no-repeat;
     height: 80vh;
 }
@@ -21,9 +20,27 @@ div img{
     
 }
 
+img.logoChico{
+
+    width: 40%;
+    display: flex;
+    position: relative;
+    left: 2%;
+    bottom: 2%;
+
+}
+
+
+
+
 /*vista desktop*/ 
 
-@media only screen and (min-width: 768){
+@media only screen and (max-width: 767px) and (min-width: 768){
+
+    img.logoChico{
+
+        display: none;
+    }      
 
 }
 
@@ -37,6 +54,10 @@ div img{
     background-size: 100%;
     
     
+}
+    img.logoGrande{
+
+    display: none;
 }
 
 }
