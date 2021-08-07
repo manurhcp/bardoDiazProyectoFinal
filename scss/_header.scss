@@ -5,9 +5,10 @@ body{
 }
 
 
-.nav{
-
+nav{
+    display: flex;
     justify-content: center;
+    align-content: flex-end ;
     
 
     li a{
@@ -30,9 +31,12 @@ header{
     background-repeat: no-repeat;
     height: 70vh;
     width: 100%;
+    box-shadow: 2px 2px 2px grey;
     
         
 }
+
+
 
 div img{
 

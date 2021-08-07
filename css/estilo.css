@@ -7189,9 +7189,11 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background-color: white; }
 
-.nav {
-  justify-content: center; }
-  .nav li a {
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end; }
+  nav li a {
     font-size: 180%;
     color: rgba(206, 206, 206, 0.788);
     font-family: 'Cormorant Garamond'; }
@@ -7201,7 +7203,8 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   height: 70vh;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 2px 2px 2px grey; }
 
 div img {
   opacity: 0.6; }
