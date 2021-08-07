@@ -1,7 +1,7 @@
 
 body{
 
-    background-color: rgba(12, 12, 12, 0.993);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -19,11 +19,16 @@ body{
     }
 }
 
+header{
+
+       
+}
+
 .bgImage {
-    background-image: url(../assets/img/harina-4.jpg);
+    background-image: url(../assets/img/manosMasa.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     
         
@@ -35,13 +40,14 @@ div img{
     
 }
 
-img.logoChico{
+img.bardoLogo{
 
     width: 40%;
     display: flex;
     position: relative;
     left: 2%;
     bottom: 2%;
+    margin: 6%;
 
 }
 
