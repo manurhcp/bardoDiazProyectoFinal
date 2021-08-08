@@ -7228,3 +7228,10 @@ img.bardoLogo {
     background-size: 100%; }
   img.logoGrande {
     display: none; } }
+
+.bgFooter {
+  background-image: url(../assets/img/bgFooter2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%; }
