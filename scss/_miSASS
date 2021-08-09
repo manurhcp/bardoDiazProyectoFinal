@@ -2,3 +2,4 @@
 @import "footer";
 @import "main";
 @import "textos";
+@import "generales";
