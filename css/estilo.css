@@ -7249,6 +7249,12 @@ img.bardoLogo {
 .logoBardoFooter {
   width: 200px; }
 
+.zoom {
+  transition: transform .5s; }
+
+.zoom:hover {
+  transform: scale(1.1); }
+
 .fila__conservas--posicion {
   display: flex;
   flex-direction: column;
