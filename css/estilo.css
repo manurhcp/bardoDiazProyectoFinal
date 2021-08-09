@@ -7250,7 +7250,8 @@ img.bardoLogo {
   width: 200px; }
 
 .zoom {
-  transition: transform .5s; }
+  transition: transform .5s;
+  cursor: pointer; }
 
 .zoom:hover {
   transform: scale(1.1); }

@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manurhcp/bardoDiazProyectoFinal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manurhcp/bardoDiazProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/manurhcp/bardoDiazProyectoFinal#readme",
   "description": ""
 }
