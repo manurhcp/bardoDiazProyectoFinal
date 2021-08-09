@@ -7189,22 +7189,34 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   background-color: white; }
 
-nav {
+.positionMenu {
   display: flex;
-  justify-content: center;
-  align-content: flex-end; }
-  nav li a {
-    font-size: 180%;
-    color: rgba(206, 206, 206, 0.788);
-    font-family: 'Cormorant Garamond'; }
+  justify-content: flex-end; }
+
+li a {
+  font-size: 180%;
+  font-family: 'Cormorant Garamond'; }
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(236, 231, 231, 0.678); }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(206, 132, 63, 0.7); }
+
+.img--size {
+  width: 20%; }
 
 .bgImage {
   background-image: url(../assets/img/manosMasa.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  height: 70vh;
-  width: 100%;
-  box-shadow: 2px 2px 2px grey; }
+  height: 65vh; }
 
 img.bardoLogo {
   width: 40%;
@@ -7214,24 +7226,11 @@ img.bardoLogo {
   bottom: 2%;
   margin: 6%; }
 
-/*vista desktop*/
-@media only screen and (max-width: 767px) and (min-width: 768) {
-  img.logoChico {
-    display: none; } }
-
-/*vista desktop*/
-@media only screen and (max-width: 767px) {
-  .bgImage {
-    background-size: 100%; }
-  img.logoGrande {
-    display: none; } }
-
 .bgFooter {
   background-image: url(../assets/img/bgFooter2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 70vh;
-  width: 100%; }
+  height: 30vh; }
 
 .fila__conservas--posicion {
   display: flex;
@@ -7244,3 +7243,7 @@ img.bardoLogo {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+
+.rowMargins {
+  margin-top: 5%;
+  margin-bottom: 5%; }
