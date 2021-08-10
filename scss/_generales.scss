@@ -2,3 +2,11 @@ body{
 
     overflow-x: hidden;
 }
+
+.zoom {
+    transition: transform .5s;
+    cursor: pointer;
+}
+.zoom:hover {
+    transform: scale(1.1);
+}

@@ -1,3 +1,5 @@
+/*footer vista desktop*/ 
+
 .bgFooter{
     background-image: url(../assets/img/bgFooter2.jpg);
     background-position: bottom;
@@ -35,10 +37,3 @@
     width: 200px;
 }
 
-.zoom {
-    transition: transform .5s;
-    cursor: pointer;
-}
-.zoom:hover {
-    transform: scale(1.1);
-}

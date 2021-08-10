@@ -7186,9 +7186,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {
-  background-color: white; }
-
+/*Header vista desktop*/
 .positionMenu {
   display: flex;
   justify-content: flex-end; }
@@ -7227,6 +7225,7 @@ img.bardoLogo {
   bottom: 2%;
   margin: 6%; }
 
+/*footer vista desktop*/
 .bgFooter {
   background-image: url(../assets/img/bgFooter2.jpg);
   background-position: bottom;
@@ -7249,13 +7248,7 @@ img.bardoLogo {
 .logoBardoFooter {
   width: 200px; }
 
-.zoom {
-  transition: transform .5s;
-  cursor: pointer; }
-
-.zoom:hover {
-  transform: scale(1.1); }
-
+/*main index.html vista desktop */
 .fila__conservas--posicion {
   display: flex;
   flex-direction: column;
@@ -7272,18 +7265,22 @@ img.bardoLogo {
   margin-top: 5%;
   margin-bottom: 5%; }
 
+body {
+  background-color: rgba(236, 234, 234, 0.959); }
+
+/*Textos main html desktop*/
 div h2 {
   font-family: 'Jost', sans-serif;
   font-size: 5rem;
   font-weight: 300;
-  color: rgba(128, 128, 128, 0.774); }
+  color: rgba(134, 137, 93, 0.774); }
 
 div p {
   font-family: 'Jost', sans-serif;
   padding: 2%;
   font-weight: 300;
   font-size: 1.5rem;
-  color: rgba(128, 128, 128, 0.774); }
+  color: rgba(31, 28, 28, 0.719); }
 
 .textoFooter {
   font-family: 'Cormorant Garamond';
@@ -7292,3 +7289,10 @@ div p {
 
 body {
   overflow-x: hidden; }
+
+.zoom {
+  transition: transform .5s;
+  cursor: pointer; }
+
+.zoom:hover {
+  transform: scale(1.1); }

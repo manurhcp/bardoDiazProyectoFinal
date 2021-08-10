@@ -1,8 +1,7 @@
+/*Header vista desktop*/ 
 
-body{
 
-    background-color: rgb(255, 255, 255);
-}
+
 
 .positionMenu{
 
@@ -11,17 +10,11 @@ body{
     }
 
 li a{
-            font-size: 180%;
-            font-family: 'Cormorant Garamond';
-            margin: 10px;
-                                  
-        }
-
-
-           
     
-
-
+    font-size: 180%;
+    font-family: 'Cormorant Garamond';
+    margin: 10px;                                
+    }
 
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -46,14 +39,6 @@ li a{
     width: 20%;
 }
 
-
-@mixin make-row($gutter: $grid-gutter-width) {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -$gutter / 2;
-    margin-left: -$gutter / 2;
-  }
-
 .bgImage {
     background-image: url(../assets/img/manosMasa.jpg);
     background-position: top;
@@ -61,8 +46,6 @@ li a{
     height: 65vh;   
         
 }
-
-
 
 img.bardoLogo{
 
