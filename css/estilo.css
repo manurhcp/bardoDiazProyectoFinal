@@ -7225,6 +7225,9 @@ img.bardoLogo {
   bottom: 2%;
   margin: 6%; }
 
+footer {
+  margin-top: 3%; }
+
 /*footer vista desktop*/
 .bgFooter {
   background-image: url(../assets/img/bgFooter2.jpg);
@@ -7282,10 +7285,32 @@ div p {
   font-size: 1.5rem;
   color: rgba(31, 28, 28, 0.719); }
 
+/*Textos main footer desktop*/
 .textoFooter {
   font-family: 'Cormorant Garamond';
   font-size: 2rem;
   color: rgba(211, 205, 205, 0.822); }
+
+/*Titulos desktop*/
+div h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Jost', sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  color: rgba(134, 137, 93, 0.774); }
+
+/*Subtitulos desktop*/
+div h3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Jost', sans-serif;
+  padding: 2%;
+  font-weight: 300;
+  font-size: 3rem;
+  color: rgba(31, 28, 28, 0.719); }
 
 body {
   overflow-x: hidden; }
