@@ -7221,7 +7221,24 @@ li a {
 /*Vista Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .bgImage {
-    height: 30vh; } }
+    height: 30vh; }
+  .img--size {
+    width: 30%;
+    position: relative;
+    left: -15px; }
+  li a {
+    font-size: 1rem;
+    color: grey;
+    font-size: 400; }
+  .navbar-light .navbar-nav .show > .nav-link,
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #5c5a5a; }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(51, 48, 48, 0.678); }
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(206, 132, 63, 0.7); } }
 
 footer {
   margin-top: 3%; }
@@ -7257,7 +7274,7 @@ footer {
     width: 100px; }
   .footer__imagenesRedes--size img {
     width: 40px;
-    opacity: 0.7; } }
+    opacity: 0.9; } }
 
 /*main index.html vista desktop */
 .fila__conservas--posicion {
@@ -7271,10 +7288,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-
-.rowMargins {
-  margin-top: 5%;
-  margin-bottom: 5%; }
 
 body {
   background-color: rgba(236, 234, 234, 0.959); }
@@ -7391,3 +7404,7 @@ body {
 
 .zoom:hover {
   transform: scale(1.1); }
+
+.rowMargins {
+  margin-top: 5%;
+  margin-bottom: 5%; }
