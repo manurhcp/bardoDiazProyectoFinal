@@ -6,10 +6,13 @@ footer{
 /*footer vista desktop*/ 
 
 .bgFooter{
+
     background-image: url(../assets/img/bgFooter2.jpg);
     background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    background-position: center center;
+    
              
 }
 
@@ -43,3 +46,22 @@ footer{
     width: 200px;
 }
 
+/*Vista Mobile*/
+
+@media only screen and (min-width:0px) and (max-width:767px){
+              
+    .logoBardoFooter{
+
+        width: 100px;
+    }  
+    
+    .footer__imagenesRedes--size img{
+	
+        width:40px;
+        opacity: 0.7;
+    }
+
+    
+
+
+}

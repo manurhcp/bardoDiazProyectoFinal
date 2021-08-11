@@ -1,4 +1,5 @@
 
+
 /*main index.html vista desktop */ 
 
 .fila__conservas--posicion {
@@ -28,6 +29,8 @@ body{
     background-color: rgba(236, 234, 234, 0.959);
 }
 
+/*Se elimina subrayado y colores de los a href*/ 
+
 a {
     
     }
@@ -39,4 +42,43 @@ a {
     color: #fff!important;
     background-color: #86898b!important;
     border-color: #f7f9fc!important; 
-  }     
+  } 
+  
+/*Imagen Bardo index*/   
+
+img.bardoLogo{
+
+    width: 40%;
+    display: flex;
+    position: relative;
+    left: 2%;
+    bottom: 2%;
+    margin: 6%;
+
+}
+
+div .map{
+
+    height: 600px;
+    width: 400px;
+}
+
+/*Vista Mobile*/
+
+@media only screen and (min-width:0px) and (max-width:767px){
+
+    img.bardoLogo{
+
+        width: 70%;
+    }
+
+    div.map{
+
+        width: 50px;
+    }
+
+
+
+
+
+}

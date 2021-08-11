@@ -7214,16 +7214,14 @@ li a {
 .bgImage {
   background-image: url(../assets/img/manosMasa.jpg);
   background-position: top;
-  background-repeat: no-repeat;
-  height: 65vh; }
+  background-size: cover;
+  background-position: center center;
+  height: 60vh; }
 
-img.bardoLogo {
-  width: 40%;
-  display: flex;
-  position: relative;
-  left: 2%;
-  bottom: 2%;
-  margin: 6%; }
+/*Vista Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .bgImage {
+    height: 30vh; } }
 
 footer {
   margin-top: 3%; }
@@ -7232,8 +7230,9 @@ footer {
 .bgFooter {
   background-image: url(../assets/img/bgFooter2.jpg);
   background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh; }
+  background-position: center center; }
 
 .footer__imagenesRedes--size img {
   width: 60px;
@@ -7251,6 +7250,14 @@ footer {
 
 .logoBardoFooter {
   width: 200px; }
+
+/*Vista Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .logoBardoFooter {
+    width: 100px; }
+  .footer__imagenesRedes--size img {
+    width: 40px;
+    opacity: 0.7; } }
 
 /*main index.html vista desktop */
 .fila__conservas--posicion {
@@ -7272,6 +7279,7 @@ footer {
 body {
   background-color: rgba(236, 234, 234, 0.959); }
 
+/*Se elimina subrayado y colores de los a href*/
 a:hover {
   text-decoration: none; }
 
@@ -7279,6 +7287,26 @@ a:hover {
   color: #fff !important;
   background-color: #86898b !important;
   border-color: #f7f9fc !important; }
+
+/*Imagen Bardo index*/
+img.bardoLogo {
+  width: 40%;
+  display: flex;
+  position: relative;
+  left: 2%;
+  bottom: 2%;
+  margin: 6%; }
+
+div .map {
+  height: 600px;
+  width: 400px; }
+
+/*Vista Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  img.bardoLogo {
+    width: 70%; }
+  div.map {
+    width: 50px; } }
 
 /*Textos main html desktop*/
 div h2 {
@@ -7326,6 +7354,30 @@ div h5 {
   font-weight: 500;
   font-size: 1.5rem;
   color: rgba(134, 137, 93, 0.774); }
+
+/*Vista Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  /*Textos main html mobile*/
+  div h2 {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  div p {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    text-align: center; }
+  /*Titulos mobile*/
+  div h1 {
+    font-size: 3rem;
+    font-weight: 200; }
+  /*Subtitulos*/
+  div h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgba(31, 28, 28, 0.719); }
+  /*Texto footer*/
+  .textoFooter {
+    font-size: 1.5rem; } }
 
 body {
   overflow-x: hidden; }
