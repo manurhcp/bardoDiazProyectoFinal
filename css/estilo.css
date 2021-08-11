@@ -7186,7 +7186,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/*Header vista desktop*/
+/*Propiedades menu*/
 .positionMenu {
   display: flex;
   justify-content: flex-end; }
@@ -7209,8 +7209,9 @@ li a {
   color: rgba(206, 132, 63, 0.7); }
 
 .img--size {
-  width: 20%; }
+  width: 40%; }
 
+/*Background Image header*/
 .bgImage {
   background-image: url(../assets/img/manosMasa.jpg);
   background-position: top;
@@ -7220,12 +7221,15 @@ li a {
 
 /*Vista Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  /*altura backgorund image*/
   .bgImage {
     height: 30vh; }
+  /*imagen nav*/
   .img--size {
     width: 30%;
     position: relative;
     left: -15px; }
+  /*Nav*/
   li a {
     font-size: 1rem;
     color: grey;
@@ -7265,13 +7269,16 @@ footer {
   position: relative;
   top: 5%; }
 
+/*Propiedades logo*/
 .logoBardoFooter {
   width: 200px; }
 
 /*Vista Mobile*/
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  /* Propiedades de logo*/
   .logoBardoFooter {
     width: 100px; }
+  /* Propiedades de imagenes redes sociales*/
   .footer__imagenesRedes--size img {
     width: 40px;
     opacity: 0.9; } }
@@ -7310,6 +7317,7 @@ img.bardoLogo {
   bottom: 2%;
   margin: 6%; }
 
+/*propiedades de mapa entregas.html*/
 div .map {
   height: 600px;
   width: 400px; }
@@ -7318,13 +7326,14 @@ div .map {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   img.bardoLogo {
     width: 70%; }
+  /*propiedades de mapa entregas.html*/
   div .map {
     width: 300px;
     height: 300px;
     display: flex;
     justify-content: center; } }
 
-/*Textos main html desktop*/
+/*Textos html desktop*/
 div h2 {
   font-family: 'Jost', sans-serif;
   font-size: 5rem;
@@ -7338,7 +7347,7 @@ div p {
   font-size: 1.5rem;
   color: rgba(31, 28, 28, 0.719); }
 
-/*Textos main footer desktop*/
+/*Textos footer desktop*/
 .textoFooter {
   font-family: 'Cormorant Garamond';
   font-size: 2rem;
