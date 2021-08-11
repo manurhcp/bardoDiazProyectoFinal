@@ -72,11 +72,16 @@ div .map{
         width: 70%;
     }
 
-    div.map{
+    div .map{
 
-        width: 50px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
     }
 
+
+    
 
 
 

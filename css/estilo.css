@@ -7305,8 +7305,11 @@ div .map {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   img.bardoLogo {
     width: 70%; }
-  div.map {
-    width: 50px; } }
+  div .map {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center; } }
 
 /*Textos main html desktop*/
 div h2 {
